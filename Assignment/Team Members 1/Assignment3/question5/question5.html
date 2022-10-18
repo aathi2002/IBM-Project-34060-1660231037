@@ -1,0 +1,20 @@
+<html> 
+  <body>
+      <script>
+         
+  window.watsonAssistantChatOptions = {
+    integrationID: "3TFs3PVYPlOMXJK8puAbwgPD6-3YAZE1lvMFoK50xbfC", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "8dbb86a1-e3a7-43a1-9266-f2f8398cf7dd", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://api.au-syd.assistant.watson.cloud.ibm.com/instances/cfa152ed-48c2-41a6-9369-798116fed3b4" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+
+
+      </script>
+  </body>
+</html>
