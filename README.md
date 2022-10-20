@@ -15,7 +15,7 @@ Personal Expense Tracker Application
 
 Team Leader -ATHI GURU K
 
-Team Member 1-Vijiaya Krishnana
+Team Member 1-Vijaya Krishnan.S
 
 Team Member 2-Niketha
 
